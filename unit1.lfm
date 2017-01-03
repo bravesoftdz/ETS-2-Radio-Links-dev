@@ -1,0 +1,129 @@
+object Form1: TForm1
+  Left = 286
+  Height = 181
+  Top = 180
+  Width = 477
+  BorderStyle = bsDialog
+  Caption = 'ETS 2 Radio Links'
+  ClientHeight = 181
+  ClientWidth = 477
+  Color = clSilver
+  Font.Color = clBlack
+  Font.Name = 'Terminus'
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 16
+    Height = 26
+    Top = 120
+    Width = 75
+    Caption = 'Собрать'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 24
+    Top = 24
+    Width = 448
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 16
+    Height = 24
+    Top = 72
+    Width = 104
+    TabOrder = 2
+    Text = 'Edit2'
+  end
+  object Edit3: TEdit
+    Left = 144
+    Height = 24
+    Top = 72
+    Width = 112
+    TabOrder = 3
+    Text = 'Edit3'
+  end
+  object Edit4: TEdit
+    Left = 400
+    Height = 24
+    Top = 72
+    Width = 64
+    TabOrder = 4
+    Text = 'Edit4'
+  end
+  object Edit5: TEdit
+    Left = 280
+    Height = 24
+    Top = 72
+    Width = 80
+    TabOrder = 5
+    Text = 'Edit5'
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 16
+    Top = 8
+    Width = 120
+    Caption = 'Ссылка на поток'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 16
+    Top = 56
+    Width = 64
+    Caption = 'Название'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 144
+    Height = 16
+    Top = 56
+    Width = 32
+    Caption = 'Жанр'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 400
+    Height = 16
+    Top = 56
+    Width = 48
+    Caption = 'Страна'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 280
+    Height = 16
+    Top = 56
+    Width = 56
+    Caption = 'Битрейт'
+    ParentColor = False
+  end
+  object Edit6: TEdit
+    Left = 96
+    Height = 24
+    Top = 120
+    Width = 368
+    ReadOnly = True
+    TabOrder = 6
+    Text = 'Edit6'
+  end
+  object Label6: TLabel
+    Left = 96
+    Height = 16
+    Top = 104
+    Width = 72
+    Caption = 'Результат'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 216
+    Height = 16
+    Top = 152
+    Width = 248
+    Caption = 'Создатель: Михаил Имуков. 2017г'
+    ParentColor = False
+  end
+end
