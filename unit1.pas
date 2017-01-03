@@ -26,8 +26,12 @@ type
     Label5: TLabel;
     Label6: TLabel;
     Label7: TLabel;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure RadioButton1Change(Sender: TObject);
+    procedure RadioButton2Change(Sender: TObject);
   private
     { private declarations }
   public
@@ -57,6 +61,31 @@ begin
    Form1.Edit4.Clear;
    Form1.Edit5.Clear;
    Form1.Edit6.Clear;
+   Form1.RadioButton1.Checked:=true;
+end;
+
+procedure TForm1.RadioButton1Change(Sender: TObject);
+begin
+   //Ru
+   Form1.Label1.Caption:='Ссылка на поток';
+   Form1.Label2.Caption:='Название';
+   Form1.Label3.Caption:='Жанр';
+   Form1.Label4.Caption:='Битрейт';
+   Form1.Label5.Caption:='Страна';
+   Form1.Label6.Caption:='Результат';
+   Form1.Button1.Caption:='Собрать';
+end;
+
+procedure TForm1.RadioButton2Change(Sender: TObject);
+begin
+    //Eng
+    Form1.Label1.Caption:='Link to stream';
+    Form1.Label2.Caption:='Name';
+    Form1.Label3.Caption:='Genre';
+    Form1.Label4.Caption:='Bitrate';
+    Form1.Label5.Caption:='Country';
+    Form1.Label6.Caption:='Result';
+    Form1.Button1.Caption:='Make';
 end;
 
 end.

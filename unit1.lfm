@@ -27,7 +27,6 @@ object Form1: TForm1
     Top = 24
     Width = 448
     TabOrder = 1
-    Text = 'Edit1'
   end
   object Edit2: TEdit
     Left = 16
@@ -35,7 +34,6 @@ object Form1: TForm1
     Top = 72
     Width = 104
     TabOrder = 2
-    Text = 'Edit2'
   end
   object Edit3: TEdit
     Left = 144
@@ -43,7 +41,6 @@ object Form1: TForm1
     Top = 72
     Width = 112
     TabOrder = 3
-    Text = 'Edit3'
   end
   object Edit4: TEdit
     Left = 400
@@ -51,7 +48,6 @@ object Form1: TForm1
     Top = 72
     Width = 64
     TabOrder = 4
-    Text = 'Edit4'
   end
   object Edit5: TEdit
     Left = 280
@@ -59,46 +55,40 @@ object Form1: TForm1
     Top = 72
     Width = 80
     TabOrder = 5
-    Text = 'Edit5'
   end
   object Label1: TLabel
     Left = 16
-    Height = 16
+    Height = 1
     Top = 8
-    Width = 120
-    Caption = 'Ссылка на поток'
+    Width = 1
     ParentColor = False
   end
   object Label2: TLabel
     Left = 16
-    Height = 16
+    Height = 1
     Top = 56
-    Width = 64
-    Caption = 'Название'
+    Width = 1
     ParentColor = False
   end
   object Label3: TLabel
     Left = 144
-    Height = 16
+    Height = 1
     Top = 56
-    Width = 32
-    Caption = 'Жанр'
+    Width = 1
     ParentColor = False
   end
   object Label4: TLabel
-    Left = 400
-    Height = 16
+    Left = 280
+    Height = 1
     Top = 56
-    Width = 48
-    Caption = 'Страна'
+    Width = 1
     ParentColor = False
   end
   object Label5: TLabel
-    Left = 280
-    Height = 16
+    Left = 400
+    Height = 1
     Top = 56
-    Width = 56
-    Caption = 'Битрейт'
+    Width = 1
     ParentColor = False
   end
   object Edit6: TEdit
@@ -108,22 +98,38 @@ object Form1: TForm1
     Width = 368
     ReadOnly = True
     TabOrder = 6
-    Text = 'Edit6'
   end
   object Label6: TLabel
     Left = 96
-    Height = 16
+    Height = 1
     Top = 104
-    Width = 72
-    Caption = 'Результат'
+    Width = 1
     ParentColor = False
   end
   object Label7: TLabel
     Left = 216
     Height = 16
-    Top = 152
+    Top = 160
     Width = 248
     Caption = 'Создатель: Михаил Имуков. 2017г'
     ParentColor = False
+  end
+  object RadioButton1: TRadioButton
+    Left = 16
+    Height = 20
+    Top = 160
+    Width = 36
+    Caption = 'RU'
+    OnChange = RadioButton1Change
+    TabOrder = 8
+  end
+  object RadioButton2: TRadioButton
+    Left = 60
+    Height = 20
+    Top = 160
+    Width = 44
+    Caption = 'ENG'
+    OnChange = RadioButton2Change
+    TabOrder = 7
   end
 end
